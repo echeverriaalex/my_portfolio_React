@@ -1,0 +1,14 @@
+section{
+    background: rgb(18, 106, 189);
+    width: 100%;
+    max-width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+h2{
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+header{
+    background: #1b9eca;
+    width: 90%;
+    border-radius: 20px;
+    position: sticky;
+    /* bottom: 10px; */
+    top: 10px;
+
+}
+
+.menu-toggle{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding: 20px 60px;
+    margin: 0 auto;
+}
+
+.menu-toggle a{
+    color: white;
+}

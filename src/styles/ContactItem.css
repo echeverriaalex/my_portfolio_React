@@ -1,9 +1,11 @@
 .item-contact{
     height: 60px;
-    width: 300px;
+    /* width: 300px; */
     /* background: rgb(67, 27, 212); */
     border: 2px solid rgb(25, 233, 6);
     border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
 }
 
 .item-contact a{
@@ -22,4 +24,5 @@ img{
 
 p{
     color: black;
+    overflow: hidden;
 }

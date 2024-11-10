@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 35px;
+    gap: 30px;
 }
 
 .content-container{
@@ -28,7 +28,8 @@
 }
 
 .text-container{
-    animation: fade 2s infinite linear alternate-reverse;
+    animation: fade .6s infinite linear alternate-reverse;
+    animation-delay: 3s;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,7 +40,7 @@
 
 @keyframes fade {
     to{
-        opacity: 0.3;
+        opacity: 0.4;
     }
     from{
         opacity: 1;
@@ -67,20 +68,36 @@ span{
     font-style: italic;
 }
 
-.button-welcome{
+.me{
+    width: 200px;
+    /* border-radius: 50%; */
+    animation: animateImage 2s infinite linear alternate-reverse;
+}
+
+.welcome-container .button-welcome{
     font-size: 20px;
     border: 2px solid white;
     color: white;
-    padding: 15px 50px;
-    animation: tremble .3s infinite linear alternate-reverse;
+    padding: 10px 50px;
+    animation: tremble .3s infinite 3s linear alternate-reverse;
 }
 
 @keyframes tremble {
     to{
-        rotate: 5deg;
+        rotate: 2deg;
     }
     from{
-        rotate: -5deg;
+        rotate: -2deg;
     }
+}
 
+@keyframes animateImage{
+    from{
+        border-radius: 30% 70% 50% 60%;
+        rotate: 40deg;
+    }
+    to{
+        border-radius: 20px;
+        transform: scale(1.2);
+    }
 }

@@ -1,0 +1,9 @@
+.network-container{
+    /* background: rgb(0, 255, 21); */
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 60px;
+}

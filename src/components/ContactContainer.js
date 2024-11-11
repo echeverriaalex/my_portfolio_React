@@ -41,6 +41,7 @@ export const ContactContainer = ()=>{
             {
                 socialMedia.map((social) =>
                     <ContactItem 
+                        key={ social.link }
                         link={social.link}
                         img={social.img}
                         name={social.name}

@@ -3,6 +3,6 @@ import '../styles/Label.css'
 
 export const Label = ( { text } ) =>{
     return(
-        <span className={ text }> {text} </span>
+        <span className={ text.toLowerCase() }> {text} </span>
     )
 }

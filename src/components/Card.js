@@ -2,7 +2,7 @@ import React from "react";
 import { Label } from "./Label";
 import '../styles/Card.css';
 
-export const Card = ({img, labels, title, text  }) =>{
+export const Card = ({img, labels, title, text, link}) =>{
     return(
         <div className="card">
             <img src={img} alt="Project" />
@@ -10,7 +10,8 @@ export const Card = ({img, labels, title, text  }) =>{
             <div className="labels-container">
                 {
                     labels.map( label =>{
-                        return <Label  
+                        return <Label
+                            key= { label }
                             text = { label }
                         />
                     })
@@ -20,7 +21,8 @@ export const Card = ({img, labels, title, text  }) =>{
             <h2> { title } </h2>
 
             <p> { text } </p>
-
+            
+            <a href={link}> Link </a>
         </div>
     )
 }

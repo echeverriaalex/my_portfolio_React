@@ -1,11 +1,12 @@
 header{
-    background: hsla(195, 76%, 45%, 0.8);
+    background: hsla(195, 76%, 45%, 0.9);
     width: 90%;
     border-radius: 20px;
     position: sticky;
     /* bottom: 10px; */
     top: 10px;
     backdrop-filter:  blur(5px);
+    z-index: 100;
 }
 
 .menu-toggle{
@@ -17,5 +18,7 @@ header{
 }
 
 .menu-toggle a{
-    color: rgb(255, 255, 255);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 17px;
 }

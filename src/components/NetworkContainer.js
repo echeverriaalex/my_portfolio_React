@@ -39,6 +39,7 @@ export const NetworkContainer = () =>{
             {
                 socialMedia.map((social) =>
                     <Network 
+                        key = { social.link }
                         link={social.link}
                         img={social.img}
                         name={social.name}

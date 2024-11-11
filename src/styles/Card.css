@@ -1,18 +1,26 @@
 .card{
     border-radius: 20px;
-    border: 2px solid red ;
-    padding: 20px;
+    border: 2px solid;
+    border: none;
+    padding: 10px;
     width: 100%;
     max-width: 300px;
-
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
+    box-shadow: 5px 4px 8px 1px black;
 }
 
 .card img{
     max-width: 100%;
+    height: 300px;
+    border-radius: 15px;
 }
+
+.card p{
+    font-size: 15px;
+}
+
 
 .labels-container{
     display: flex;

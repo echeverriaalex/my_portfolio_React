@@ -16,6 +16,10 @@ section{
     gap: 30px;
 }
 
+.content img{
+    width: 100px;
+}
+
 #meetme img{
     height: 400px;
     border-radius: 10px;

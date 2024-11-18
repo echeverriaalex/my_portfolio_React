@@ -14,6 +14,7 @@ import foto3 from './electronicarts.jpg'
 
 import { Card } from './components/Card';
 import { Catalog } from './components/Catalog';
+import { CatalogSkills } from './components/CatalogSkills';
 
 function App() {
 
@@ -47,7 +48,7 @@ function App() {
 
   return (
     <div className="App">
-      <WelcomePage />
+      <WelcomePage id='start'/>
 
       <NavBar />
 
@@ -65,13 +66,28 @@ function App() {
       />
 
 
-      <Catalog 
-        items = { array }
+      <Section 
+        id= 'projects'
+        title='My projects'
+        component={
+          <Catalog 
+            items = { array }
+          />
+        }
+      />
+
+
+      <CatalogSkills 
+      
       
       />
-      
-  
-      <Section 
+
+
+        
+
+
+      <Section
+        id= 'contact'
         title='Contact me'
         component={ <ContactContainer /> }
       />

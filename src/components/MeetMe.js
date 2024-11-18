@@ -10,9 +10,7 @@ export const MeetMe = ({img, name, description}) =>{
                 <div className="description-container">
                     <h2>{name}</h2>
                     <p>{description}</p>
-                    
                 </div>
-                
             </div>
             <NetworkContainer />
         </section>

@@ -1,9 +1,9 @@
 import React from 'react';
 import '../styles/Section.css'
 
-export const Section = ({title, component}) => {
+export const Section = ({id, title, component}) => {
     return(
-        <section>
+        <section id= { id }>
             <h2>{title}</h2>
             {component}
         </section>

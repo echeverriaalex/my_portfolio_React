@@ -23,8 +23,12 @@
 }
 
 .gif{
-    /* width: 50%; */
     height: 300px;
+    /*
+    width: 50%; 
+    background: red;
+    padding: 10px;
+    */
 }
 
 .text-container{
@@ -79,7 +83,7 @@ span{
     border: 2px solid white;
     color: white;
     padding: 10px 50px;
-    animation: tremble .3s infinite 3s linear alternate-reverse;
+    animation: tremble .5s infinite 3s linear alternate-reverse;
 }
 
 @keyframes tremble {

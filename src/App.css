@@ -21,6 +21,8 @@
   scroll-padding-top: 90px;
   /* padding-top: 120px; */
   
+
+  scroll-behavior: smooth;
 }
 
 .App-logo {

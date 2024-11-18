@@ -6,7 +6,6 @@ export const Card = ({img, labels, title, text, link}) =>{
     return(
         <div className="card">
             <img src={img} alt="Project" />
-
             <div className="labels-container">
                 {
                     labels.map( label =>{
@@ -17,12 +16,9 @@ export const Card = ({img, labels, title, text, link}) =>{
                     })
                 }
             </div>
-
             <h2> { title } </h2>
-
             <p> { text } </p>
-            
-            <a href={link}> Link </a>
+            <a className="link" href={link} target="_blank" rel="noreferrer"> Ver proyecto </a>
         </div>
     )
 }
